@@ -1,0 +1,109 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3 {
+    font-weight: 900;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+.bg-light {
+    background-color: white!important;
+}
+.site-name {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+    .site-name{
+        font-size: 2.4rem;
+    }
+}
+
+
+.site-name span {
+    font-weight: 900;
+}
+.navbar-toggler {
+    background-color: white!important;
+    margin: 0 auto;
+}
+.header {
+    height: 40rem;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+.nav-link {
+    color: white!important;
+}
+@media (min-width:992px) {
+    .header .nav-link:first-child::before {
+        display: none;
+    }
+    .header .nav-link::before {
+        content: '|';
+        margin-right: 1rem;
+    }
+}
+.phone::before {
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-image: url(../img/phone_icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+}
+/** About Us **/
+.about-us-bg {
+    background-image: url(../img/about_us.jpg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    min-height: 44rem;
+}
+@media (min-width: 768px) {
+    .about-us-bg {
+        min-height: 36rem;
+    }
+}
+
+
+/** Modelos **/
+.model {
+    background-repeat: no-repeat;
+    min-height: 40rem;
+}
+@media (min-width:768px) {
+    .model {
+        min-height: 30rem;
+    }
+}
+.basic {
+    background-image: url(../img/home_basic.jpg);
+    background-position: bottom right;
+}
+.premier {
+    background-image: url(../img/home_premier.jpg);
+    background-position: top left;
+}
+.elite {
+    background-image: url(../img/home_elite.jpg);
+    background-position: bottom right;
+}
+
+/** Footer **/
+.footer {
+    height: 30rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-dark {
+    background-color: #111!important;
+}
